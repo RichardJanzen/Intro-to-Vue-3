@@ -31,7 +31,7 @@ app.component('review-form', {
             name: '',
             review: '',
             rating: null,
-            recommend: ''
+            recommend: null
         }
     },
     methods: {
@@ -52,7 +52,7 @@ app.component('review-form', {
             this.name=''
             this.review=''
             this.rating=null
-            this.recommend=''
+            this.recommend=null
         }
     }
 })
